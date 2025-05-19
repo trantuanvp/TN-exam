@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngọt Ngào</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Parisienne&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="falling-items-container">
+        </div>
+
+    <div class="container">
+        <header>
+            <h1 class="main-title">Gửi Em Những Điều Tuyệt Vời Nhất!</h1>
+        </header>
+
+        <main class="content-section">
+            <div class="card poem-card">
+                <h3 class="card-title">Vần Thơ Tặng Em</h3>
+                <p>Dẫu cho sông cạn đá mòn,</p>
+                <p>Tình anh vẫn mãi sắt son một lòng.</p>
+                <p class="author">- Chồng của em hihi -</p>
+            </div>
+
+            <div class="card message-card">
+                <div class="love-avt-row">
+                    <div class="love-avt-col">
+                        <img src="https://scontent.fhph2-1.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-png_s200x200&_nc_cat=1&ccb=1-7&_nc_sid=136b72&_nc_ohc=duGw32spGhUQ7kNvwFdLOwS&_nc_oc=AdkKZnXAFFc2mPAZAJUI5dCDjCs-piH4Cp7RxHbE3snq3WnUpA12nQssHO_hQD75ox8uapZUx0-NObP3tzBjhVd3&_nc_zt=24&_nc_ht=scontent.fhph2-1.fna&oh=00_AfK320R9kYtzyvrHHcHfUUWSjdxf2V5BwlnMiwddX60lhQ&oe=68527EBA" alt="Avatar 1" class="love-avt left"/>
+                        <div class="avt-name">Chồng</div>
+                    </div>
+                    <div class="heart-center">
+                        <span class="love-heart">💗</span>
+                    </div>
+                    <div class="love-avt-col">
+                        <img src="https://scontent.fhph2-1.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-png_s200x200&_nc_cat=1&ccb=1-7&_nc_sid=136b72&_nc_ohc=duGw32spGhUQ7kNvwFdLOwS&_nc_oc=AdkKZnXAFFc2mPAZAJUI5dCDjCs-piH4Cp7RxHbE3snq3WnUpA12nQssHO_hQD75ox8uapZUx0-NObP3tzBjhVd3&_nc_zt=24&_nc_ht=scontent.fhph2-1.fna&oh=00_AfK320R9kYtzyvrHHcHfUUWSjdxf2V5BwlnMiwddX60lhQ&oe=68527EBA" alt="Avatar 2" class="love-avt right"/>
+                        <div class="avt-name">Vợ</div>
+                    </div>
+                </div>
+                <div class="love-day-counter" id="exam-day-counter" style="width:100%;text-align:center;margin:16px auto 0 auto;font-family:'Dancing Script',cursive;font-size:1.1em;color:#ff69b4;letter-spacing:0.5px;background:#fff6fa;border-radius:14px;padding:8px 8px 7px 8px;box-shadow:0 1px 8px #ffe0ec;max-width:320px;line-height:1.4;">
+                    Còn <span id="days-to-exam">...</span> nữa đến kỳ thi cấp 3!
+                </div>
+            </div>
+
+            <div class="card action-card" id="reveal-letter-trigger">
+                <p>Thư cho bạn nè 💌</p>
+                <img src="https://img.icons8.com/plasticine/100/000000/filled-like.png" alt="Trái tim" class="heart-icon"/>
+                <p class="hint-text">(Nhấn vào đây để đọc lời nhắn cuối cùng)</p>
+            </div>
+        </main>
+
+        <footer>
+            
+        </footer>
+    </div>
+
+    <div id="final-letter-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-modal-button">&times;</span>
+            <h2><span id="modal-typing-title"></span></h2>
+            <div class="letter-body">
+
+                <p>Kỳ thi vào cấp 3 sắp tới có thể khiến em có nhiều áp lực, nhưng hãy nhớ rằng em không bao giờ đơn độc trên hành trình này</p>
+                <p>Anh luôn ở đây, bên cạnh em, tin tưởng vào khả năng và sự nỗ lực của em. </p>
+                <p>Mỗi giọt mồ hôi, mỗi đêm thức khuya của em hôm nay sẽ là hạt giống cho những thành công tươi đẹp ngày mai. Đừng quên dành thời gian nghỉ ngơi, hít thở sâu và tin vào chính mình nhé.</p>
+                <p>Dù kết quả thế nào, tình yêu và niềm tự hào của anh dành cho em vẫn không thay đổi. Anh yêu em vì con người em, không phải vì bất kỳ con số nào trên giấy tờ.</p>
+                <p>Cố lên tình yêu của anh! Anh sẽ đợi em ở đích đến với một cái ôm thật chặt và niềm vui ngập tràn.</p>
+                <p><em>Luôn yêu em -Tuân</em></p>
+            </div>
+            <a href="https://www.facebook.com/tuantvtvip" class="contact-link" target="_blank" rel="noopener noreferrer">Call anh bất cứ khi nào mà em cần</a>
+        </div>
+    </div>
+
+    <audio id="background-music" loop src="https://rr2---sn-8qj-i5o6r.googlevideo.com/videoplayback?expire=1747686536&ei=KEAraKGcK4fHi9oPmqqd8QE&ip=2a09%3Abac5%3A4e3d%3A270f%3A%3A3e4%3A28&id=o-AEllJMKpahzcn5rxU1UUZzH3agUqRyfc6UHzwqKrY5VI&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&rms=au%2Cau&bui=AecWEAYtSL1G5HlkDQob42qS_vn7QtPmvroGtxWWm_FIWiOglcc2BFWJZE_0dqmyGqsOzGl3Cpe1UjKV&vprv=1&svpuc=1&mime=audio%2Fmp4&ns=uLV_pa78kmG8ssii8KAOB8gQ&rqh=1&gir=yes&clen=4903284&dur=302.927&lmt=1706670035097651&keepalive=yes&lmw=1&c=TVHTML5&sefc=1&txp=4532434&n=nEg6Jn2VeBqaVA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRAIgHO8M-TNH1Oy_XQbXgreh3geUyzZh6IqiMBJjj_gp4AcCIAsWDdRd_sFkYJ8yspnHVZaK7dmijhJnyXtJ8diN9LFi&title=N%C6%A0I+N%C3%80Y+C%C3%93+ANH+-+S%C6%A0N+T%C3%99NG+M-TP+%7C%7C+PIANO+COVER+%7C%7C+AN+COONG+PIANO&redirect_counter=1&rm=sn-5hnely7s&rrc=104&fexp=24350590,24350737,24350827,24350961,24351173,24351177,24351495,24351528,24351594,24351638,24351658,24351661,24351759,24351790,24351864,24351865,24351907,24351984,24352012,24352018,24352019,24352023&req_id=959815b27a5fa3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&met=1747664941,&mh=u8&mip=2001:ee0:4962:2480:a157:71cc:225a:2f18&mm=31&mn=sn-8qj-i5o6r&ms=au&mt=1747664712&mv=m&mvi=2&pcm2cms=yes&pl=50&lsparams=ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pcm2cms,pl,rms&lsig=ACuhMU0wRQIhAJ-5zx0u9grozvs5Q4WnPIFL_cVXnemV4wvfGCDIIWqZAiAEqj2DuM32CLaRqnGj0yXlqrZzJlIolfG8gsEEAKpV_g%3D%3D"></audio>
+    <button id="music-toggle-button" aria-label="Phát nhạc">▶</button>
+
+    <script src="script.js"></script>
+    <script>
+// Đếm ngược ngày thi từ 1/6/2025 đến hiện tại (hiển thị cả ngày, giờ, phút, giây)
+(function() {
+    const examDate = new Date(2025, 5, 1, 0, 0, 0); // 1/6/2025 00:00:00
+    function updateExamCountdown() {
+        const now = new Date();
+        let diff = examDate - now;
+        if (diff < 0) diff = 0;
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+        const minutes = Math.floor((diff / (1000 * 60)) % 60);
+        const seconds = Math.floor((diff / 1000) % 60);
+        document.getElementById('days-to-exam').innerHTML = `${days} ngày, ${hours} giờ, ${minutes} phút, ${seconds} giây`;
+    }
+    updateExamCountdown();
+    setInterval(updateExamCountdown, 1000); // Cập nhật mỗi giây
+})();
+</script>
+</body>
+</html>
